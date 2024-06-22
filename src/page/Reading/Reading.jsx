@@ -63,7 +63,7 @@ function Reading() {
     <>
       {readingMode === 'yes' ? <div className="ReadingMode col-12"></div> : ''}
       {/* Navbar Reading Mode */}
-      <div className="navbarReadingMode col-12 d-flex justify-content-between p-4 px-5  ">
+      <div className=" col-12 d-flex justify-content-between p-4 px-5  ">
         <Link to={`/detailcerita/${ceritaId}`} className="leftNavbar d-flex align-items-center ">
           <IoArrowBack className="me-1" size={20} /> <span>Kembali ke Detai Cerita</span>
         </Link>

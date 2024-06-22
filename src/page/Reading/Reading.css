@@ -1,6 +1,3 @@
-.navbarReadingMode {
-  border-bottom: 1px solid var(--text);
-}
 .leftNavbar {
   color: var(--text);
   text-decoration: none;

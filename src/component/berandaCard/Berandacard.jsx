@@ -50,9 +50,9 @@ function Berandacard({ data, index, userId, token }) {
   return (
     <>
       <div className="cardCerita col-3 my-4 p-2" key={index}>
-        <div className="borderRecomendation">
+        <a href={`/detailcerita/${data.ceritaId}`} className="borderRecomendation">
           <img src={data.imageCerita} alt="cardImage" className="img-fluid imageCardCerita" />
-        </div>
+        </a>
         <div className="p-2">
           <div className="d-flex flex-wrap justify-content-between">
             <span className="daerahCerita text-light">{data.asalDaerah}</span>
