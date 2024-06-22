@@ -1,0 +1,73 @@
+.headerTK {
+  min-height: 100vh;
+}
+.tentangKami {
+  color: var(--SecondText);
+  font-size: 18px;
+  letter-spacing: 0.3em;
+}
+.titleTK {
+  font-size: 50px;
+  color: var(--SecondBg);
+  font-weight: 600;
+}
+
+.descTK {
+  font-size: 22px;
+  color: var(--text);
+}
+.colorBlue {
+  color: var(--SecondBg);
+  font-weight: 600;
+}
+.teamTK {
+  min-height: 100vh;
+  background: var(--SecondBg);
+  padding: 100px 0px 100px 0px;
+}
+.subTitleTK {
+  color: var(--text);
+
+  letter-spacing: 0.2em;
+}
+.titleTimTK {
+  color: var(--bg);
+  font-size: 38px;
+  font-weight: 600;
+}
+.minTitle {
+  margin-top: -15px;
+}
+.borderImage {
+  height: 15rem;
+  width: 15rem;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nameTeam {
+  font-size: 25px;
+  color: var(--bg);
+  font-weight: 600;
+}
+.roleTeam {
+  font-size: 18px;
+  color: var(--text);
+  font-weight: 600;
+  margin-top: -5px;
+}
+.subscribeSide {
+  min-height: 100vh;
+}
+.aboutUsTitle {
+  font-size: 40px;
+  color: var(--SecondBg);
+  font-weight: 600;
+}
+.iconText {
+  font-size: 22px;
+  color: var(--SecondBg);
+  text-decoration: none;
+}

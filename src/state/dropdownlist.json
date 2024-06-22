@@ -1,0 +1,178 @@
+{
+  "jenisCerita": [
+    {
+      "label": "Fabel"
+    },
+    {
+      "label": "Mitos"
+    },
+    {
+      "label": "Saga"
+    },
+    {
+      "label": "Cerita Rakyat"
+    },
+    {
+      "label": "Legenda"
+    },
+    {
+      "label": "Roman"
+    }
+  ],
+  "genreCerita": [
+    {
+      "label": "Legenda"
+    },
+    {
+      "label": "Mitos"
+    },
+    {
+      "label": "Sage"
+    },
+    {
+      "label": "Fabel"
+    },
+    {
+      "label": "Dongeng"
+    },
+    {
+      "label": "Cerita Rakyat Daerah"
+    },
+    {
+      "label": "Epos"
+    },
+    {
+      "label": "Cerita Jenaka"
+    },
+    {
+      "label": "Parabel"
+    },
+    {
+      "label": "Cerita Asal-Usul (Aitiologi)"
+    }
+  ],
+  "daerahCerita": [
+    {
+      "label": "Aceh"
+    },
+    {
+      "label": "Sumatra Utara"
+    },
+    {
+      "label": "Sumatra Barat"
+    },
+    {
+      "label": "Riau"
+    },
+    {
+      "label": "Kepulauan Riau"
+    },
+    {
+      "label": "Jambi"
+    },
+    {
+      "label": "Bengkulu"
+    },
+    {
+      "label": "Sumatra Selatan"
+    },
+    {
+      "label": "Bangka Belitung"
+    },
+    {
+      "label": "Lampung"
+    },
+    {
+      "label": "Banten"
+    },
+    {
+      "label": "Jakarta"
+    },
+    {
+      "label": "Jawa Barat"
+    },
+    {
+      "label": "Jawa Tengah"
+    },
+    {
+      "label": "Yogyakarta"
+    },
+    {
+      "label": "Jawa Timur"
+    },
+    {
+      "label": "Bali"
+    },
+    {
+      "label": "Nusa Tenggara Barat"
+    },
+    {
+      "label": "Nusa Tenggara Timur"
+    },
+    {
+      "label": "Kalimantan Barat"
+    },
+    {
+      "label": "Kalimantan Tengah"
+    },
+    {
+      "label": "Kalimantan Selatan"
+    },
+    {
+      "label": "Kalimantan Timur"
+    },
+    {
+      "label": "Kalimantan Utara"
+    },
+    {
+      "label": "Sulawesi Utara"
+    },
+    {
+      "label": "Sulawesi Tengah"
+    },
+    {
+      "label": "Sulawesi Selatan"
+    },
+    {
+      "label": "Sulawesi Tenggara"
+    },
+    {
+      "label": "Gorontalo"
+    },
+    {
+      "label": "Sulawesi Barat"
+    },
+    {
+      "label": "Maluku"
+    },
+    {
+      "label": "Maluku Utara"
+    },
+    {
+      "label": "Papua Barat"
+    },
+    {
+      "label": "Papua"
+    },
+    {
+      "label": "Papua Tengah"
+    },
+    {
+      "label": "Papua Pegunungan"
+    },
+    {
+      "label": "Papua Selatan"
+    },
+    {
+      "label": "Papua Barat Daya"
+    }
+  ],
+  "urutBerdasarkan": [
+    {
+      "label": "Terbaru"
+    },
+    {
+      "label": "Terpopuler"
+    }
+  ]
+}

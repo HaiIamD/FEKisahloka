@@ -1,0 +1,176 @@
+.NavbarBeranda {
+  position: fixed;
+  z-index: 4;
+  color: var(--bg);
+}
+.NavbarWithBgBeranda {
+  position: fixed;
+  color: var(--SecondBg);
+  background: rgba(255, 255, 255, 0.548);
+  z-index: 4;
+  backdrop-filter: blur(2px);
+}
+.titleNavbarBeranda {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 24px;
+  color: var(--bg);
+  text-decoration: none;
+}
+.titleNavbarBerandaBody {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 24px;
+  color: var(--SecondBg);
+  text-decoration: none;
+}
+.isiNavbarBeranda {
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--bg);
+}
+.isiNavbarBody {
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--SecondBg);
+}
+.activeBeranda {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--bg);
+  text-decoration: none;
+}
+.activeBerandaBody {
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--SecondBg);
+  text-decoration: none;
+}
+.inputanSerchNavbar {
+  background: #e2e8f0;
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
+  color: var(--SecondBg);
+}
+.inputanSearch {
+  font-size: 14px;
+  background: #e2e8f0;
+  color: var(--SecondBg);
+}
+
+.buttonWithBgWhite {
+  border: none;
+  border-radius: 20px;
+  padding: 7px 17px 7px 17px;
+  background: var(--bg);
+  color: var(--SecondBg);
+}
+
+.buttonBodyDaftar {
+  border: none;
+  border-radius: 20px;
+  padding: 7px 17px 7px 17px;
+  background: var(--SecondBg);
+  color: var(--bg);
+  text-decoration: none;
+}
+
+.buttonDaftar {
+  border: none;
+  border-radius: 20px;
+  padding: 7px 17px 7px 17px;
+  background: var(--bg);
+  color: var(--SecondBg);
+  text-decoration: none;
+}
+
+.masukBeranda {
+  border: none;
+  border-radius: 20px;
+  padding: 7px 17px 7px 17px;
+  background: var(--bg);
+  color: var(--SecondBg);
+}
+
+.masukText {
+  border: none;
+  border-radius: 20px;
+  padding: 5px 17px 5px 17px;
+  background: transparent;
+  color: var(--thirdText);
+  text-decoration: none;
+}
+.masukBodyText {
+  border: none;
+  border-radius: 20px;
+  padding: 5px 17px 5px 17px;
+  background: transparent;
+  color: var(--SecondBg);
+  text-decoration: none;
+}
+
+.NavbarBeranda:hover {
+  background: rgba(255, 255, 255, 0.712);
+  position: fixed;
+  color: var(--SecondBg);
+}
+
+.NavbarBeranda:hover .masukText,
+.NavbarBeranda:hover .isiNavbarBeranda,
+.NavbarBeranda:hover .activeBeranda,
+.NavbarBeranda:hover .titleNavbarBeranda {
+  color: var(--SecondBg);
+}
+
+.NavbarBeranda:hover .buttonDaftar {
+  background: var(--SecondBg);
+  color: var(--bg);
+}
+
+.dropdownProfile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.profileSection {
+  position: absolute;
+  min-height: 23vh;
+  min-width: 40vh;
+  right: 0px;
+  top: 50px;
+  border-radius: 20px 0px 20px 20px;
+  background: var(--SecondBg);
+  color: var(--bg);
+  overflow: hidden;
+  border: 2px solid var(--bg);
+}
+.imgMascotLogo {
+  position: absolute;
+  right: -60px;
+  top: 75px;
+  max-height: 350px;
+}
+.textLinkProfile {
+  font-size: 14px;
+  color: var(--bg);
+}
+.avatar {
+  cursor: pointer;
+}
+.titleProfile {
+  font-size: 14pt;
+}
+.buttonLogout {
+  background: var(--bg);
+  color: var(--SecondBg);
+  cursor: pointer;
+  border: 1px solid var(--SecondBg);
+}
+.buttonLogout:hover {
+  background: var(--SecondBg);
+  color: var(--bg);
+  cursor: pointer;
+  border: 1px solid var(--bg);
+}

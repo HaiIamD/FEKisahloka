@@ -1,0 +1,40 @@
+{
+  "routes": [
+    {
+      "src": "/auth/register",
+      "dest": "${VITE_REGISTER_API}"
+    },
+    {
+      "src": "/auth/login",
+      "dest": "${VITE_LOGIN_API}"
+    },
+    {
+      "src": "/cerita/getCerita",
+      "dest": "${VITE_GET_CERITA}"
+    },
+    {
+      "src": "/cerita/getAllCerita",
+      "dest": "${VITE_GETALL_CERITA}"
+    },
+    {
+      "src": "/cerita/addFavorite",
+      "dest": "${VITE_ADD_FAVORITE}"
+    },
+    {
+      "src": "/cerita/getAllCeritaFilter",
+      "dest": "${VITE_GETALL_CERITA_FILTER}"
+    },
+    {
+      "src": "/cerita/getFavoriteCerita",
+      "dest": "${VITE_GET_FAVORITE}"
+    },
+    {
+      "src": "/cerita/deleteFavorite",
+      "dest": "${VITE_DELETE_FAVORITE}"
+    },
+    {
+      "src": "/[^.]+",
+      "dest": "/"
+    }
+  ]
+}

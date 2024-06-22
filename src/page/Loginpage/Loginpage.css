@@ -1,0 +1,63 @@
+.loginPage {
+  background: var(--SecondBg);
+}
+.leftLoginPage {
+  min-height: 100vh;
+  color: var(--bg);
+}
+.rightLoginPage {
+  background: var(--bg);
+}
+.imageLogin {
+  max-height: 450px;
+}
+.titleLogin {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 40px;
+  color: var(--SecondBg);
+}
+.subTitleLogin {
+  font-size: 16px;
+}
+.inputan {
+  border: none;
+}
+.inputan:focus {
+  border: none;
+  outline: none;
+}
+.checkBox {
+  width: 20px;
+}
+.buttonLogin {
+  background: var(--SecondBg);
+  color: var(--bg);
+  border: 2px solid var(--SecondBg);
+  border-radius: 5px;
+  margin-top: 45px;
+}
+.buttonAbstractLogin {
+  background: var(--bg);
+  color: var(--SecondBg);
+  border: 2px solid var(--text);
+  border-radius: 5px;
+  margin-top: 45px;
+}
+.DaftarLink {
+  text-decoration: none;
+  color: var(--SecondText);
+  font-weight: 600;
+  font-weight: 600;
+}
+.kotakInput {
+  position: relative;
+  border: 2px solid var(--text);
+  padding: 15px 10px 15px 10px;
+  border-radius: 5px;
+}
+.labelInput {
+  position: absolute;
+  top: -13px;
+  background: var(--bg);
+  padding: 0px 3px 0px 3px;
+}

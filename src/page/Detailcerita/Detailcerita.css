@@ -1,0 +1,92 @@
+.headerDetailCerita {
+  min-height: 85vh;
+}
+.titleDetailCerita {
+  font-size: 35px;
+  color: var(--SecondBg);
+  font-weight: 600;
+}
+.subTitleDetailCerita {
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+.sinopsisDetailCerita {
+  font-size: 15px;
+  color: var(--text);
+}
+.buttonDetailCerita {
+  background: #eceaea;
+  border: none;
+  border-radius: 5px;
+  color: var(--text);
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+  margin: 0px 5px 0px 5px;
+}
+.buttonMulaiCerita {
+  background: var(--SecondBg);
+  color: var(--bg);
+  font-size: 14px;
+  border: 2px solid var(--SecondBg);
+  border-radius: 30px;
+  padding: 8px 20px 8px 20px;
+}
+.buttonBookmnark {
+  background: var(--bg);
+  color: var(--SecondText);
+  font-size: 14px;
+  border: 2px solid var(--SecondText);
+  border-radius: 30px;
+  padding: 8px 20px 8px 20px;
+}
+.buttonBookmnarkRemove {
+  background: var(--SecondText);
+  color: var(--bg);
+  font-size: 14px;
+  border: 2px solid var(--SecondText);
+  border-radius: 30px;
+  padding: 8px 20px 8px 20px;
+}
+
+/* Card Side */
+.daerahCerita {
+  font-size: 13px;
+  color: var(--SecondText);
+}
+.titleCerita {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.borderImageCerita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 420px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.borderRecomendation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.absoluteLoading {
+  position: fixed;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.kotakJelajahiCerita {
+  min-height: 400px;
+}

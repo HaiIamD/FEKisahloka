@@ -1,0 +1,24 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.page-num {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 9pt;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  border: 1px solid rgba(182, 181, 181, 0.267);
+  margin: 0px 5px 0px 5px;
+}
+.active {
+  background: var(--SecondBg);
+  color: var(--bg);
+}

@@ -1,0 +1,5 @@
+.iconBookmark {
+  color: var(--SecondText);
+  cursor: pointer;
+  font-size: 18pt;
+}

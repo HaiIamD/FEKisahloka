@@ -1,0 +1,23 @@
+.registerPage {
+  background: var(--ThirdBg);
+}
+.buttonRegister {
+  background: var(--ThirdBg);
+  color: var(--bg);
+  border: 2px solid var(--ThirdBg);
+  border-radius: 5px;
+  margin-top: 45px;
+}
+.buttonAbstractRegister {
+  background: var(--bg);
+  color: var(--ThirdBg);
+  border: 2px solid var(--text);
+  border-radius: 5px;
+  margin-top: 45px;
+}
+.kotakPasswrong {
+  position: relative;
+  border: 2px solid red;
+  padding: 15px 10px 15px 10px;
+  border-radius: 5px;
+}

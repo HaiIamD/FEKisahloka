@@ -1,0 +1,24 @@
+.Footer {
+  background: var(--SecondBg);
+  padding: 30px 0px 20px 0px;
+}
+.titleFooter {
+  font-size: 40px;
+  color: var(--bg);
+}
+.subTitleFooter {
+  font-size: 14px;
+  color: var(--text);
+}
+.navFooter {
+  color: var(--bg);
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.hr {
+  color: var(--bg);
+}
+.icon {
+  cursor: pointer;
+}

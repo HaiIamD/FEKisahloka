@@ -1,0 +1,230 @@
+.relativeBeranda {
+  height: 200vh;
+  position: relative;
+  z-index: 1;
+}
+.stickBeranda {
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  height: 100vh;
+}
+.bgHeroSection {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: sticky;
+  z-index: -1;
+}
+.titleHomepage {
+  font-size: 70px;
+  color: var(--SecondBg);
+  max-width: 800px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 50px 0px 20px 0px;
+}
+.subTitleHomepage {
+  font-size: 16px;
+  color: var(--SecondBg);
+  max-width: 600px;
+  text-align: center;
+}
+.buttonHomePage {
+  border: none;
+  background: var(--SecondBg);
+  color: var(--bg);
+  border-radius: 20px;
+  margin: 40px 0px 30px 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.borderIcon {
+  background: var(--bg);
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 40px 10px 0 10px;
+  cursor: pointer;
+}
+.bodySection {
+  position: relative;
+  background: var(--bg);
+  border-radius: 70px;
+  min-height: 100vh;
+  top: -110vh;
+  margin-bottom: -110vh;
+  z-index: 2;
+}
+
+.orangeText {
+  color: var(--SecondText);
+}
+.logoMitra {
+  width: 105px;
+}
+
+.titlejenisCerita {
+  font-size: 33px;
+  color: var(--SecondBg);
+  max-width: 410px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 50px 0px 20px 0px;
+  letter-spacing: 1px;
+}
+
+/* recomendation Side */
+
+.recomendationSection {
+  position: relative;
+  background: var(--SecondBg);
+  top: -10vh;
+  z-index: 1;
+  min-height: 50vh;
+  margin-bottom: -10vh;
+  padding: 100px 0px 100px 0px;
+}
+.titleRecomendation {
+  font-size: 14px;
+  letter-spacing: 0.3em;
+}
+.subTitleRecomendation {
+  font-size: 33px;
+  color: var(--bg);
+  max-width: 250px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 50px 0px 20px 0px;
+  letter-spacing: 1px;
+}
+
+/* Banner Section */
+.bannerSection {
+  position: relative;
+  top: -10vh;
+  border-radius: 70px 70px 0px 0px;
+  min-height: 50vh;
+  z-index: 2;
+  margin-bottom: -10vh;
+  background: var(--bg);
+}
+
+/* BentoCard side */
+.cardBeranda {
+  position: relative;
+  height: 350px;
+  background: #f9fbff;
+  border-radius: 20px;
+  box-shadow: 0px 1px 6px 0px rgba(75, 75, 75, 0.329);
+  overflow: hidden;
+  cursor: pointer;
+}
+.jenisCerita {
+  letter-spacing: 1.5pt;
+  color: var(--text);
+}
+.titleCardJenisCerita {
+  color: var(--SecondBg);
+  font-size: 28px;
+  font-weight: 600;
+  transition: transform 0.3s ease-in-out;
+}
+.descCardJenisCerita {
+  color: var(--text);
+  max-width: 300px;
+  font-weight: 500;
+  transition: transform 0.3s ease-in-out;
+  z-index: 2;
+}
+.jelajahi {
+  color: var(--text);
+}
+.descCardJenisCerita2 {
+  color: var(--text);
+  max-width: 200px;
+  font-weight: 500;
+  transition: transform 0.3s ease-in-out;
+  z-index: 2;
+}
+.imgAbsolute1 {
+  position: absolute;
+  height: 22rem;
+  width: 22rem;
+  right: 30px;
+  top: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.imgAbsolute2 {
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  right: 0px;
+  bottom: 0px;
+  transition: transform 0.3s ease-in-out;
+}
+.imgAbsolute3 {
+  position: absolute;
+  height: 20rem;
+  width: 20rem;
+  right: 0px;
+  bottom: 0px;
+  transition: transform 0.3s ease-in-out;
+}
+.imgAbsolute4 {
+  position: absolute;
+  height: 30rem;
+  width: 30rem;
+  right: 0px;
+  bottom: 0px;
+  transition: transform 0.3s ease-in-out;
+}
+.imgAbsolute5 {
+  position: absolute;
+  height: 25em;
+  width: 25em;
+  right: 0px;
+  bottom: 0px;
+  transition: transform 0.3s ease-in-out;
+}
+.arrowIcon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.cardBeranda:hover .imgAbsolute1,
+.cardBeranda:hover .imgAbsolute2,
+.cardBeranda:hover .imgAbsolute3,
+.cardBeranda:hover .imgAbsolute4,
+.cardBeranda:hover .imgAbsolute5,
+.cardBeranda:hover .imgAbsolute6 {
+  transform: scale(1.06);
+}
+
+.cardBeranda:hover .descCardJenisCerita,
+.cardBeranda:hover .descCardJenisCerita2 {
+  transform: scale(0.95);
+  transition: transform 0.3s; /* Menambahkan transisi agar pergerakan lebih halus */
+}
+.cardBeranda:hover .arrowIcon {
+  transform: translateX(5px);
+}
+.cardBeranda:hover {
+  background: #9bb9f5c2;
+}
+.jelajahiCeritaLainnya {
+  background: #324d7a;
+  color: var(--bg);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sosialMediaKisahloka {
+  text-decoration: none;
+}
