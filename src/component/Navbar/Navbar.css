@@ -12,37 +12,37 @@
 }
 .titleNavbarBeranda {
   font-family: 'IM Fell Double Pica', serif;
-  font-size: 24px;
+  font-size: 22px;
   color: var(--bg);
   text-decoration: none;
 }
 .titleNavbarBerandaBody {
   font-family: 'IM Fell Double Pica', serif;
-  font-size: 24px;
+  font-size: 22px;
   color: var(--SecondBg);
   text-decoration: none;
 }
 .isiNavbarBeranda {
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
   text-decoration: none;
   color: var(--bg);
 }
 .isiNavbarBody {
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
   text-decoration: none;
   color: var(--SecondBg);
 }
 .activeBeranda {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
   color: var(--bg);
   text-decoration: none;
 }
 .activeBerandaBody {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
   color: var(--SecondBg);
@@ -51,11 +51,11 @@
 .inputanSerchNavbar {
   background: #e2e8f0;
   border-radius: 20px;
-  padding: 10px 15px 10px 15px;
+  padding: 8px 13px 8px 13px;
   color: var(--SecondBg);
 }
 .inputanSearch {
-  font-size: 14px;
+  font-size: 13px;
   background: #e2e8f0;
   color: var(--SecondBg);
 }
@@ -75,6 +75,7 @@
   background: var(--SecondBg);
   color: var(--bg);
   text-decoration: none;
+  font-size: 11pt;
 }
 
 .buttonDaftar {
@@ -84,6 +85,7 @@
   background: var(--bg);
   color: var(--SecondBg);
   text-decoration: none;
+  font-size: 11pt;
 }
 
 .masukBeranda {
@@ -101,6 +103,7 @@
   background: transparent;
   color: var(--thirdText);
   text-decoration: none;
+  font-size: 11pt;
 }
 .masukBodyText {
   border: none;
@@ -109,6 +112,7 @@
   background: transparent;
   color: var(--SecondBg);
   text-decoration: none;
+  font-size: 11pt;
 }
 
 .NavbarBeranda:hover {
@@ -137,7 +141,7 @@
 .profileSection {
   position: absolute;
   min-height: 23vh;
-  min-width: 40vh;
+  min-width: 43vh;
   right: 0px;
   top: 50px;
   border-radius: 20px 0px 20px 20px;
@@ -158,9 +162,10 @@
 }
 .avatar {
   cursor: pointer;
+  max-height: 40px;
 }
 .titleProfile {
-  font-size: 14pt;
+  font-size: 13pt;
 }
 .buttonLogout {
   background: var(--bg);

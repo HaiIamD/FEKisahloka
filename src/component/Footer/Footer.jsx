@@ -26,13 +26,13 @@ function Footer() {
         <hr className="col-11 hr" />
         <div className="col-11 d-flex justify-content-between">
           <div className="col-4">
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/channel/UCdq4iT_AZwMQCMTr1A-uXFw" target="_blank" rel="noopener noreferrer">
               <FaYoutube className="mx-2 icon" color="fff" size={25} />
             </a>
-            <a href="/daftarcerita" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/channel/UCdq4iT_AZwMQCMTr1A-uXFw" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="mx-2 icon" color="fff" size={25} />
             </a>
-            <a href="/login" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/channel/UCdq4iT_AZwMQCMTr1A-uXFw" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="mx-2 icon" color="fff" size={25} />
             </a>
           </div>

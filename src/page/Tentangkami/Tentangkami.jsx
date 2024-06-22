@@ -108,16 +108,36 @@ function Tentangkami() {
         <div className="col-6 d-flex flex-column">
           <span className="tentangKami">IKUTI KAMI</span>
           <span className="aboutUsTitle mb-4">Dapatkan Informasi Terkini Ikuti Sosial Media Kami</span>
-          <a className="d-flex my-3 flex-wrap align-items-center sosialMediaKisahloka" href="/" target="_blank" rel="noopener noreferrer">
+          <a
+            className="d-flex my-3 flex-wrap align-items-center sosialMediaKisahloka"
+            href="https://www.youtube.com/channel/UCdq4iT_AZwMQCMTr1A-uXFw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaYoutube size={40} color="1a3a5c" className="me-5" /> <span className="iconText">Kisahlokaid</span>
           </a>
-          <a className="d-flex my-3 flex-wrap align-items-center sosialMediaKisahloka" href="/" target="_blank" rel="noopener noreferrer">
+          <a
+            className="d-flex my-3 flex-wrap align-items-center sosialMediaKisahloka"
+            href="https://www.youtube.com/channel/UCdq4iT_AZwMQCMTr1A-uXFw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaFacebook size={40} color="1a3a5c" className="me-5" /> <span className="iconText">Kisahlokaid</span>
           </a>
-          <a className="d-flex my-3 flex-wrap align-items-center sosialMediaKisahloka" href="/" target="_blank" rel="noopener noreferrer">
+          <a
+            className="d-flex my-3 flex-wrap align-items-center sosialMediaKisahloka"
+            href="https://www.youtube.com/channel/UCdq4iT_AZwMQCMTr1A-uXFw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram size={40} color="1a3a5c" className="me-5" /> <span className="iconText">Kisahlokaid</span>
           </a>
-          <a className="d-flex my-3 flex-wrap align-items-center sosialMediaKisahloka" href="/" target="_blank" rel="noopener noreferrer">
+          <a
+            className="d-flex my-3 flex-wrap align-items-center sosialMediaKisahloka"
+            href="https://www.youtube.com/channel/UCdq4iT_AZwMQCMTr1A-uXFw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin size={40} color="1a3a5c" className="me-5" /> <span className="iconText">Kisahlokaid</span>
           </a>
         </div>

@@ -98,7 +98,7 @@ function Reading() {
 
       {/* Image And Text */}
       <div className="container">
-        <div className="d-flex flex-wrap imageAndText  d-flex flex-wrap justify-content-center align-items-center">
+        <div className="d-flex flex-wrap imageAndText  d-flex flex-wrap justify-content-center align-items-center py-4">
           <div className="col-1">
             <TfiArrowCircleLeft size={35} color="6f7f96" className="cursorCerita " onClick={handlePrevSlide} />
           </div>
@@ -114,7 +114,7 @@ function Reading() {
             <TfiArrowCircleRight size={35} color="6f7f96" className="cursorCerita " onClick={handleNextSlide} />
           </div>
           <div className="d-flex justify-content-center ">
-            <span className="pageCerita">
+            <span className="pageCerita pt-4">
               {slideCerita + 1} / {isiCerita.length}
             </span>
           </div>
