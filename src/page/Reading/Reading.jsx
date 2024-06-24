@@ -84,13 +84,13 @@ function Reading() {
           </div>
           {listFavorite[0].favorite === null && (
             <div className="d-flex flex-wrap align-items-center">
-              <BsBookmarkHeartFill size={24} className="ms-3 me-2 bookmark" color="C40C0C" /> <span>0</span>
+              <BsBookmarkHeartFill size={24} className="ms-3 me-2 " color="C40C0C" /> <span>0</span>
             </div>
           )}
 
           {listFavorite[0].favorite !== null && (
             <div className="d-flex flex-wrap align-items-center">
-              <BsBookmarkHeartFill size={24} className="ms-3 me-2 bookmark" color="C40C0C" /> <span>{listFavorite.length}</span>
+              <BsBookmarkHeartFill size={24} className="ms-3 me-2 " color="C40C0C" /> <span>{listFavorite.length}</span>
             </div>
           )}
         </div>
